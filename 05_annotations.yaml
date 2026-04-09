@@ -6,8 +6,8 @@ metadata:
   labels:
     project: roboshop-annaotation
     component: frontend
-  annaotations: 
-    version: "new version"
+  annotations: 
+    description: "new version"
 spec: 
   containers:
     - name: nginx
