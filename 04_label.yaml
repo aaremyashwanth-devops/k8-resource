@@ -1,9 +1,13 @@
 apiVersion: v1
-kind: Label
+kind: Pod
 metadata:
-  name: label
+  name: labels
   namespace: roboshop
   labels:
     project: roboshop-k8-resource
     environment: dev
+spec:
+  containers:
+    - name: nginx
+      image: nginx
 
