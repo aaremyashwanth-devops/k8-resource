@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Label
+metadata:
+  name: label
+  namespace: roboshop
+  labels:
+    project: roboshop-k8-resource
+    environment: dev
+
