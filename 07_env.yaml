@@ -8,9 +8,9 @@ spec:
   - name: nginx
     image: nginx
     env:
-      -name: project
+    - name: project
       value: roboshop
-      -name: course
+    - name: course
       value: kubernets
-      -name: hours
+    - name: hours
       value: zero
