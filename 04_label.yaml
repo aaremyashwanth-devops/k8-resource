@@ -4,7 +4,7 @@ metadata:
   name: labels
   namespace: roboshop
   labels:
-    project: roboshop-k8-resource
+    project: roboshop
     environment: dev
 spec:
   containers:
