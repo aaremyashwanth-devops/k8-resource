@@ -10,5 +10,5 @@ metadata:
 spec:
   containers:
   - name: almalinux
-    image: almalinux
+    image: almalinux:9
     command: ["sleep","1000"]
