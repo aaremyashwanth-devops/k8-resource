@@ -13,4 +13,4 @@ spec:
       -name: course
       value: kubernets
       -name: hours
-      value: 120
+      value: zero
