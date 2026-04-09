@@ -8,3 +8,7 @@ spec:
     project: roboshop
     environment: dev
     components: frontend
+  ports:
+  -  protocol: TCP
+     prot: 80
+     target port: 80
