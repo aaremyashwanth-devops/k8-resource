@@ -8,7 +8,5 @@ spec:
   - name: nginx
     image: nginx
     envFrom:
-    - configMapRef:
+    - ConfigMapRef:
         name: configmap
-  restartPolicy: Always
-  
