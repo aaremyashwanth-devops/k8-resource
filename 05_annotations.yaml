@@ -6,7 +6,8 @@ metadata:
   labels:
     project: roboshop-annaotation
     component: frontend
-  annaotation: "this k8 resource"
+  annaotations: 
+    version: "new version"
 spec: 
   containers:
     - name: nginx
