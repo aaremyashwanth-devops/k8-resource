@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
  name: ConfigMap
- #namespace: roboshop
+ namespace: roboshop
 data:
   project: "roboshop"
   course: "kubernets"
