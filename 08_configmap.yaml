@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
- name: ConfigMap
+ name: configmap
  namespace: roboshop
 data:
   project: "roboshop"
