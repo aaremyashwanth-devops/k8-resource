@@ -10,7 +10,6 @@ spec:
       environment: dev
       tier: frontend
 template:
-  kind:
   metadata:
     labels:
       project: roboshop
