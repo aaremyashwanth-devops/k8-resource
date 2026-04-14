@@ -9,13 +9,13 @@ spec:
       project: roboshop
       environment: dev
       tier: frontend
-template:
-  metadata:
-    labels:
-      project: roboshop
-      environment: dev
-      tier: frontend
-  spec:
-    containers:
-      - name: nginx
-        image: nginx
+  template:
+    metadata:
+      labels:
+        project: roboshop
+        environment: dev
+        tier: frontend
+    spec:
+      containers:
+        - name: nginx
+          image: nginx
