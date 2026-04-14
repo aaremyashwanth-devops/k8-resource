@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ReplicaSet
+metadata:
+  name: replica-set
+spec:
+  replica: 2
+  selector: 
+    matchlabels: 
+      project: roboshop
+      environment: dev
+      tier: frontend
+template:
+  kind:
+  metadata:
+    labels:
+      project: roboshop
+      environment: dev
+      tier: frontend
+  spec:
+    containers:
+      - name: nginx
+        image: nginx
