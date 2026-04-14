@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: service-loadblancer
 spec:
-  type: LoadBlancer
+  type: LoadBalancer
   selector:
     project: roboshop
     environment: dev
